@@ -13,13 +13,12 @@ public class isPalindrome {
 		// TODO Auto-generated method stub
 		Scanner ss = new Scanner(System.in);
 	    System.out.print("Enter the your String : ");
-	    // Below Statement used for getting String including sentence
+	   
 	    String s = ss.nextLine(); 
 	   char[] w = s.toCharArray();
 	    s= s.replaceAll("\\s+", "");
 	    s = s.toLowerCase();
-	   // Below Statement used for return the first word in the sentence
-	     //System.out.println(s);
+	  
 	   boolean r = isPalindrom(s);
 	   System.out.println(r);
 	  
