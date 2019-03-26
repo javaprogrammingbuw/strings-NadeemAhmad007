@@ -17,12 +17,18 @@ public class Expand {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+		//Code indendation!
+
 		  Scanner ss = new Scanner(System.in);
 		    System.out.print("Enter the your string : ");
 		    // Below Statement used for getting String including sentence
 		    String s = ss.nextLine(); 
 		   // Below Statement used for return the first word in the sentence
 		  System.out.println("name "+s);
+
+		  	//This should have been done in a method!
+
 		    StringBuilder sb = new StringBuilder();
 		    int repeat = 0;
 		    for (char c : s.toCharArray()) {

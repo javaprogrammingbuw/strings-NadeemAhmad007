@@ -7,6 +7,7 @@
 
 import java.util.Scanner;
 
+//Does not compile
 public class isPalindrome {
 
 	public static void main(String[] args) {
